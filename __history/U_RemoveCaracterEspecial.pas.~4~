@@ -1,0 +1,31 @@
+unit U_RemoveCaracterEspecial;
+
+interface
+
+uses
+   winapi.windows, System.SysUtils, System.MaskUtils;
+
+
+Function FormataData(TextoData:String):String;
+
+
+
+implementation
+
+
+
+
+Function FormataData(TextoData:String):String;
+
+begin
+    StringReplace(TextoData,'\','',[rfReplaceAll]);
+    StringReplace(TextoData,'"','',[rfReplaceAll]);
+//    Delete(TextoData,ansipos('"',TextoData),1);  //Remove ponto .
+//    Delete(TextoData,ansipos('\',TextoData),1);
+    Result:=FormatmaskText('99/99/9999',TextoData); // Formata os numero
+
+end;
+
+
+
+end.

@@ -1,0 +1,23 @@
+unit U_RemoveCaracterCNPJ;
+
+interface
+
+uses
+   winapi.windows, System.SysUtils, System.MaskUtils;
+
+Function formacnpj(numtexto:String):String;
+
+implementation
+
+//Formata número CNPJ
+Function formacnpj(numtexto:String):String;
+begin
+    Delete(numtexto,ansipos('.',numtexto),1);  //Remove ponto .
+    Delete(numtexto,ansipos('.',numtexto),1);
+    Delete(numtexto,ansipos('-',numtexto),1); //Remove traço -
+    Delete(numtexto,ansipos('/',numtexto),1); //Remove barra /
+    Result:=FormatmaskText('00\.000\.000\/0000\-00;0;',numtexto);
+
+end;
+
+end.

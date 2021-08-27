@@ -1,0 +1,16 @@
+program P_JSON;
+
+uses
+  Vcl.Forms,
+  U_Principal in 'U_Principal.pas' {F_Principal},
+  U_ValidaCPF_CNPJ in 'U_ValidaCPF_CNPJ.pas',
+  U_RemoveCaracterEspecial in 'U_RemoveCaracterEspecial.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TF_Principal, F_Principal);
+  Application.Run;
+end.

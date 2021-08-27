@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/07/01 11:14:02.000.999,=C:\Users\DevWin10\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/12 13:08:20.000.054,=C:\Users\DevWin10\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/12 13:20:16.000.132,C:\JSON\U_Principal.dfm=C:\Users\DevWin10\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/08/12 13:20:16.000.132,C:\JSON\U_Principal.pas=C:\Users\DevWin10\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/12 13:20:22.000.616,C:\JSON\Project1.dproj=C:\Users\DevWin10\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/08/12 21:15:12.000.113,C:\JSON\P_JSON.dproj=C:\JSON\Project1.dproj</Transaction>
+    <Transaction>2021/08/12 23:50:00.000.253,=C:\JSON\U_ValidaCPF_CNPJ.pas</Transaction>
+    <Transaction>2021/08/13 00:04:21.000.003,=C:\JSON\Unit1.pas</Transaction>
+    <Transaction>2021/08/13 00:07:32.000.515,C:\JSON\Unit1.pas=C:\JSON\U_RemoveCaracterCNPJ.pas</Transaction>
+    <Transaction>2021/08/13 08:42:31.000.001,C:\JSON\U_RemoveCaracterCNPJ.pas=</Transaction>
+    <Transaction>2021/08/13 09:44:14.000.298,=C:\JSON\Unit1.pas</Transaction>
+    <Transaction>2021/08/13 10:22:18.000.361,C:\JSON\U_RemoveCaracterEspecial.pas=C:\JSON\Unit1.pas</Transaction>
+    <Transaction>2021/08/13 12:41:12.000.506,=C:\JSON\Unit1.pas</Transaction>
+    <Transaction>2021/08/13 12:43:30.000.850,=C:\JSON\Unit1.pas</Transaction>
+    <Transaction>2021/08/14 12:53:51.000.550,=C:\JSON\Unit1.pas</Transaction>
+    <Transaction>2021/08/14 12:58:21.000.437,C:\JSON\Unit1.pas=C:\JSON\U_DadosCNPJ.pas</Transaction>
+    <Transaction>2021/08/14 12:58:21.000.437,C:\JSON\Unit1.dfm=C:\JSON\U_DadosCNPJ.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
